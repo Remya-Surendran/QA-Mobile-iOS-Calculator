@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "8F60566E-7F11-4687-BF1A-3E28319BF6E1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "BasePage",
+        "BaseTest",
+        "CalculatorPage",
+        "CalculatorUITests",
+        "CalculatorUITestsLaunchTests"
+      ],
+      "target" : {
+        "containerPath" : "container:Calculator.xcodeproj",
+        "identifier" : "47CCCA1C298D96AE00C2DF89",
+        "name" : "CalculatorUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
